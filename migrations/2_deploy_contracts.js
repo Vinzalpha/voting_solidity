@@ -1,5 +1,5 @@
-const Voting = artifacts.require("Voting");
+const Election = artifacts.require("Election");
 
 module.exports = function(deployer) {
-  deployer.deploy(Voting);
+  deployer.deploy(Election);
 };
